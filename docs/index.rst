@@ -6,7 +6,7 @@ Welcome to STORM's documentation!
    :alt: STORM icon
    :align: right
 
-``storm`` (Spatial Temporal Omics Regulatory Modeling) is a graph-linked
+``storm`` (Spatial Temporal multi-Omics Representation Model) is a graph-linked
 unified embedding model for paired multi-omics spatial data with optional
 time-resolved samples.
 

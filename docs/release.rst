@@ -4,7 +4,7 @@ Release notes
 v0.3.2
 ------
 
-Initial public release of STORM (Spatial Temporal Omics Regulatory Modeling).
+Initial public release of STORM (Spatial Temporal multi-Omics Representation Model).
 
 Highlights:
 

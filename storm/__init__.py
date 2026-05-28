@@ -1,5 +1,5 @@
 r"""
-STORM (Spatial Temporal Omics Regulatory Modeling)
+STORM (Spatial Temporal multi-Omics Representation Model)
 
 A graph-linked unified embedding model for paired multi-omics spatial data,
 derived from `GLUE`_ (Cao & Gao, 2022) with gene-program masking adapted

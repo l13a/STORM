@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "storm"
 version = "0.3.2"
-description = "STORM: Spatial Temporal Omics Regulatory Modeling for paired multi-omics spatial data integration"
+description = "STORM: Spatial Temporal multi-Omics Representation Model for paired multi-omics spatial data integration"
 readme = "README.md"
 requires-python = ">=3.6"
 license = {file = "LICENSE"}
