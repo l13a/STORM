@@ -9,7 +9,7 @@ Biotechnol.* 2022), with gene-program masking adapted from
 [NicheCompass](https://github.com/Lotfollahi-lab/nichecompass) and an
 additional temporal-alignment objective.
 
-![Model architecture](docs/_static/architecture.svg)
+![STORM architecture](docs/_static/STORM_architecture.png)
 
 ## Directory layout
 
