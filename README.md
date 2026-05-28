@@ -1,15 +1,46 @@
-# STORM (Spatial Temporal Omics Regulatory Modeling)
+# STORM — Spatial Temporal multi-Omics Representation Model
 
 [![license-badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-STORM is a graph-linked unified embedding model for **paired multi-omics
-spatial data** with optional **time-resolved** samples. It is derived from
-the [GLUE](https://github.com/gao-lab/GLUE) framework (Cao & Gao, *Nat.
-Biotechnol.* 2022), with gene-program masking adapted from
-[NicheCompass](https://github.com/Lotfollahi-lab/nichecompass) and an
-additional temporal-alignment objective.
-
 ![STORM architecture](docs/_static/STORM_architecture.png)
+
+Spatiotemporal multi-omic atlases are rapidly emerging and shifting tissue
+biology from static, single-modality snapshots to dynamic, multi-layer atlases
+across development and disease. Yet integrating space, time, and modality while
+preserving tissue geometry, transient niches, and real biological change remains
+difficult.
+
+**STORM** is among the first end-to-end frameworks to jointly model
+space–time–modality while grounding the representation in gene programs. STORM
+learns a unified cell embedding using a multimodal graph neural network
+variational autoencoder, jointly aligning timepoints and modalities while
+correcting time-dependent technical variation. Leveraging curated gene programs,
+STORM decomposes complex biology into interpretable, program-level components
+across modalities and reveals time-evolving program dynamics.
+
+STORM extends to multiple timepoints, sequencing platforms, tissues, and
+biological conditions. Across three paired spatial RNA–ATAC datasets — spanning
+postnatal (P0–P22) and embryonic (E11.0–E18.5) mouse brain development and a
+lysolecithin-induced demyelination model — STORM preserves stage-dependent
+anatomy, resolves small anatomically meaningful populations (including the
+island of Calleja), tracks coordinated spatiotemporal program trajectories, and
+enables program-level RNA–ATAC contrasts that expose regulatory priming not
+apparent from expression alone. Together, these results show that STORM provides
+a scalable, interpretable route to dissect spatiotemporal molecular programs
+from time-course spatial multi-omic data.
+
+### Key capabilities
+
+- **Joint space–time–modality integration** — a multimodal GNN-VAE that aligns
+  timepoints and modalities in a single cell embedding while correcting
+  time-dependent technical variation.
+- **Gene-program grounding** — curated gene programs decompose biology into
+  interpretable, program-level components across RNA and ATAC.
+- **Temporal program dynamics** — tracks coordinated spatiotemporal program
+  trajectories and program-level RNA–ATAC contrasts that reveal regulatory
+  priming.
+- **Generalizable** — scales across timepoints, sequencing platforms, tissues,
+  and biological conditions.
 
 ## Directory layout
 
